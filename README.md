@@ -21,7 +21,7 @@ I won't maintain this repo, feel free to fork it.
    - [My package that has everything you need to actually make this working (including playermodels)](https://mega.nz/#!UFIx3aBR!aokYXWhlVBHp-cuP-RIggVoFlryoqBDw0pjawXk22ag)
    - [Official VCMod](https://www.gmodstore.com/market/view/21)
    - WeatherMod (available in the repo)
-   - TDMCars (available in the worhttps://www.google.com/search?client=firefox-b-d&q=emoji+memekshop, some models are already in my package)
+   - TDMCars (available in the workshop, some models are already in my package)
    - My customized version of CW 1.0 (available in the repo)
    - [Extra Customizable Weaponry 1.0 - Complete pack](https://mega.nz/#!hd43ER4S!t74w7ZYT44BoY6b8ehoQ_RSCMym87-Bklb7hPobwlJw)
  
