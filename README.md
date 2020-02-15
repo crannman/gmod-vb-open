@@ -26,7 +26,7 @@ I won't maintain this repo, feel free to fork it.
    - [Extra Customizable Weaponry 1.0 - Complete pack](https://mega.nz/#!hd43ER4S!t74w7ZYT44BoY6b8ehoQ_RSCMym87-Bklb7hPobwlJw)
  
  - C++ Modules
-   - Myqsloo
+   - Mysqloo
    - Serversecure (nothing relies on this, easily removable)
  
  - Populating the database
