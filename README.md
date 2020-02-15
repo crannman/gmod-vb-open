@@ -39,4 +39,4 @@ The gamemode default language is french but you can change to english by modifyi
 # Screenshots
 Some screenshots can be found on my steam profile: https://steamcommunity.com/id/azzen/screenshots/
 
-Good luck trying to make this gamemode functional again.
+Good luck trying to make this gamemode functional again and please keep in mind that this project was not initially intended to be publicly released, so it may not follow the standards regarding gmod lua and addons (especially configuration). You'll need to reverse engineer what I've done to make something **reliable and stable**.
