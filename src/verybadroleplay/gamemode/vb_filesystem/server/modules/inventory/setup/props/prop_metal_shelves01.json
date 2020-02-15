@@ -1,0 +1,12 @@
+{
+    "Identifier": "PROP_METAL_SHELVES01",
+    "Name" : "Etagère en métal",
+    "Desc" : "Placeholder Description",
+    "Model" : "models/props/cs_office/shelves_metal.mdl",
+    "Health" : 50,
+    "MarketPrice" : 10,
+    "Category" : "FURNITURE",
+    "Quantity" : 0,
+    "IsStackable" : true,
+    "IsBuyableFromFlea" : true
+}

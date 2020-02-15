@@ -1,0 +1,14 @@
+{
+  "Identifier": "UPGR_ELCAN",
+  "Name" : "Viseur ELCAN C79",
+  "Desc" : "",
+  "Model" : "models/wystan/attachments/2otech557sight.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "EQUIPMENTS",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "upgr_elcan"
+
+}

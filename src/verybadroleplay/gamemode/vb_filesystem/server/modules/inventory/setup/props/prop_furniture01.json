@@ -1,0 +1,12 @@
+{
+  "Identifier": "PROP_FURNITURE01",
+  "Name" : "Meuble en bois",
+  "Desc" : "Meuble en bois, il s'accomode parfaitement dans un salon du début du XXème siècle",
+  "Model" : "models/props_interiors/dresser_short.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "FURNITURE",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true
+}

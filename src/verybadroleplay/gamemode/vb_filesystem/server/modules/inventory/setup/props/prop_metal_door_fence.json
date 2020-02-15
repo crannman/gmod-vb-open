@@ -1,0 +1,12 @@
+{
+    "Identifier": "PROP_METAL_DOOR_FENCE",
+    "Name" : "Porte Grillage",
+    "Desc" : "Porte faite en grillage",
+    "Model" : "models/props_building_details/storefront_template001a_bars.mdl",
+    "Health" : 50,
+    "MarketPrice" : 10,
+    "Category" : "FURNITURE",
+    "Quantity" : 0,
+    "IsStackable" : true,
+    "IsBuyableFromFlea" : true
+  }

@@ -1,0 +1,14 @@
+{
+  "Identifier": "UPGR_LASERSIGHT",
+  "Name" : "Viseur laser",
+  "Desc" : "",
+  "Model" : "models/Items/BoxSRounds.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "EQUIPMENTS",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "upgr_lasersight"
+
+}

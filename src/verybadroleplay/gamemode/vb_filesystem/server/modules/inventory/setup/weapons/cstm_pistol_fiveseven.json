@@ -1,0 +1,13 @@
+{
+  "Identifier": "WEP_57",
+  "Name" : "FN Five-Seven",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/weapons/w_pist_fiveseven.mdl",
+  "Health" : -1,
+  "MarketPrice" : 10,
+  "Category" : "WEAPONS",
+  "Quantity" : 1,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "cstm_pistol_fiveseven"
+}

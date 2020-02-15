@@ -1,0 +1,13 @@
+{
+  "Identifier": "WEP_XM1014",
+  "Name" : "XM1014",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/weapons/w_shot_xm1014.mdl",
+  "Health" : -1,
+  "MarketPrice" : 10,
+  "Category" : "WEAPONS",
+  "Quantity" : 1,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "cstm_shotgun_xm1014"
+}

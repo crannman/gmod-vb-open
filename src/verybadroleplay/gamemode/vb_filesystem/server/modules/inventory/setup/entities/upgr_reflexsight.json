@@ -1,0 +1,14 @@
+{
+  "Identifier": "UPGR_REFLEXSIGHT",
+  "Name" : "Viseur doctor",
+  "Desc" : "",
+  "Model" : "models/wystan/attachments/2octorrds.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "EQUIPMENTS",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "upgr_reflexsight"
+
+}

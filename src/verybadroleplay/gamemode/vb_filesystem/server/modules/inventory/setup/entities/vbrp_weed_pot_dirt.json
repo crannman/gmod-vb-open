@@ -1,0 +1,13 @@
+{
+  "Identifier": "MARKET_LOAM",
+  "Name" : "Loam",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/props_junk/garbage_bag001a.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "MARKET",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "vbrp_weed_pot_dirt"
+}

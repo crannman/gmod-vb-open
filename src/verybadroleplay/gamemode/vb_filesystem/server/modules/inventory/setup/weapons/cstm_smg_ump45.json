@@ -1,0 +1,13 @@
+{
+  "Identifier": "WEP_UMP45",
+  "Name" : "HK UMP-45",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/weapons/w_smg_ump45.mdl",
+  "Health" : -1,
+  "MarketPrice" : 10,
+  "Category" : "WEAPONS",
+  "Quantity" : 1,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "cstm_smg_ump45"
+}

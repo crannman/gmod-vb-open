@@ -1,0 +1,12 @@
+{
+    "Identifier": "PROP_WOODFENCE02",
+    "Name" : "Grande planche en bois",
+    "Desc" : "Placeholder Description",
+    "Model" : "models/props_wasteland/wood_fence01a.mdl",
+    "Health" : 50,
+    "MarketPrice" : 10,
+    "Category" : "FURNITURE",
+    "Quantity" : 0,
+    "IsStackable" : true,
+    "IsBuyableFromFlea" : true
+}

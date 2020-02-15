@@ -1,0 +1,13 @@
+{
+  "Identifier": "WEP_SG550",
+  "Name" : "SIG 550",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/weapons/w_snip_sg550.mdl",
+  "Health" : -1,
+  "MarketPrice" : 10,
+  "Category" : "WEAPONS",
+  "Quantity" : 1,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "cstm_sniper_sg550"
+}

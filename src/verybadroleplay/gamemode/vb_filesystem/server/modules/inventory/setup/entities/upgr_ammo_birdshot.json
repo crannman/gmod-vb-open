@@ -1,0 +1,14 @@
+{
+  "Identifier": "UPGR_AMMO_BIRDSHOT",
+  "Name" : "Birdshot",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/Items/BoxMRounds.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "AMMUNITION",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "upgr_ammo_birdshot"
+
+}

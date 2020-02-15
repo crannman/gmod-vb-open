@@ -1,0 +1,13 @@
+{
+  "Identifier": "ENTITY_LAMP",
+  "Name" : "Lamp",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/props_lab/desklamp01.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "MARKET",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity": "vbrp_lamp"
+}

@@ -1,0 +1,12 @@
+{
+    "Identifier": "PROP_DOCUMENT_CABINET01",
+    "Name" : "Casiers",
+    "Desc" : "Placeholder Description",
+    "Model" : "models/props/cs_office/file_cabinet1_group.mdl",
+    "Health" : 50,
+    "MarketPrice" : 10,
+    "Category" : "FURNITURE",
+    "Quantity" : 0,
+    "IsStackable" : true,
+    "IsBuyableFromFlea" : true
+}

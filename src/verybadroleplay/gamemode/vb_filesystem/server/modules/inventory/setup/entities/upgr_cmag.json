@@ -1,0 +1,14 @@
+{
+  "Identifier": "UPGR_CMAG",
+  "Name" : "Chargeur CMAG (Camembert)",
+  "Desc" : "Un chargeur en forme de camembert permettant de largement aggrandir le magasin d'une arme.",
+  "Model" : "models/wystan/cmag.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "EQUIPMENTS",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "upgr_cmag"
+
+}

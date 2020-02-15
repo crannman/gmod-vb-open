@@ -1,0 +1,14 @@
+{
+  "Identifier": "UPGR_VERTGRIP",
+  "Name" : "Poignée verticale",
+  "Desc" : "",
+  "Model" : "models/wystan/attachments/foregrip1.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "EQUIPMENTS",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "upgr_vertgrip"
+
+}

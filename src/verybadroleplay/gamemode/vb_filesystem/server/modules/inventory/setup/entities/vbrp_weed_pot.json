@@ -1,0 +1,13 @@
+{
+  "Identifier": "MARKET_WEEDPOT",
+  "Name" : "Weed pot",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/nater/weedplant_pot.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "MARKET",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "vbrp_weed_pot"
+}

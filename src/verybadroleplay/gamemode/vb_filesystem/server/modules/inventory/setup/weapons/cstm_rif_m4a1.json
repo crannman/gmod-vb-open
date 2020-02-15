@@ -1,0 +1,13 @@
+{
+  "Identifier": "WEP_M4A1",
+  "Name" : "M4A1",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/weapons/w_rif_m4a1.mdl",
+  "Health" : -1,
+  "MarketPrice" : 10,
+  "Category" : "WEAPONS",
+  "Quantity" : 1,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "cstm_rif_m4a1"
+}

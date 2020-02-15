@@ -1,0 +1,12 @@
+{
+  "Identifier": "PROP_TRASHBIN1",
+  "Name" : "Poubelle bleue",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/props_junk/TrashBin01a.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "FURNITURE",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true
+}

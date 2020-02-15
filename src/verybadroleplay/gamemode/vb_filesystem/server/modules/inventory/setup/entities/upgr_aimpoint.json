@@ -1,0 +1,14 @@
+{
+  "Identifier": "UPGR_AIMPOINT",
+  "Name" : "Aimpoint",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/wystan/attachments/aimpoint.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "EQUIPMENTS",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "upgr_aimpoint"
+
+}

@@ -1,0 +1,13 @@
+{
+  "Identifier": "WEP_G36C",
+  "Name" : "G36C",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/weapons/w_rif_g36c.mdl",
+  "Health" : -1,
+  "MarketPrice" : 10,
+  "Category" : "WEAPONS",
+  "Quantity" : 1,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "cstm_rif_g36c"
+}

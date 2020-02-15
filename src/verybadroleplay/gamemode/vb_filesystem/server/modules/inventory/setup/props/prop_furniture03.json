@@ -1,0 +1,12 @@
+{
+  "Identifier": "PROP_WOOD_DRESSER01",
+  "Name" : "Buffet en bois",
+  "Desc" : "Jolie petit buffet, il ira parfaitement dans votre salon",
+  "Model" : "models/props_interiors/dresser_short.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "FURNITURE",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true
+}

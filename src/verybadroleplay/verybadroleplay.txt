@@ -1,0 +1,8 @@
+"verybadroleplay"
+{
+    "base"        "base"
+    "title"        "Very Bad Roleplay"
+    "author_name" "Azzen"
+    "author_email" "azzen@azzen.com"
+    "menusystem" "0"
+}

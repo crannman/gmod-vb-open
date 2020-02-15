@@ -1,0 +1,12 @@
+{
+    "Identifier": "PROP_WOOD_SHELVES02",
+    "Name" : "Etagère en bois",
+    "Desc" : "Placeholder Description",
+    "Model" : "models/props/cs_militia/furniture_shelf01a.mdl",
+    "Health" : 50,
+    "MarketPrice" : 10,
+    "Category" : "FURNITURE",
+    "Quantity" : 0,
+    "IsStackable" : true,
+    "IsBuyableFromFlea" : true
+}

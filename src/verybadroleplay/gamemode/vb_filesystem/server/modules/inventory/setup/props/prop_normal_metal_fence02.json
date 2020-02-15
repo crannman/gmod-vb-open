@@ -1,0 +1,12 @@
+{
+    "Identifier": "PROP_NORMAL_METAL_FENCE02",
+    "Name" : "Grillage moyen",
+    "Desc" : "Grillage moyen",
+    "Model" : "models/props_c17/fence01b.mdl",
+    "Health" : 50,
+    "MarketPrice" : 10,
+    "Category" : "FURNITURE",
+    "Quantity" : 0,
+    "IsStackable" : true,
+    "IsBuyableFromFlea" : true
+  }

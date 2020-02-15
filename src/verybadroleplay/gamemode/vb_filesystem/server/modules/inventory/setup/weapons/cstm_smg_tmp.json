@@ -1,0 +1,13 @@
+{
+  "Identifier": "WEP_TMP",
+  "Name" : "Steyr TMP",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/weapons/w_smg_tmp.mdl",
+  "Health" : -1,
+  "MarketPrice" : 10,
+  "Category" : "WEAPONS",
+  "Quantity" : 1,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "cstm_smg_tmp"
+}

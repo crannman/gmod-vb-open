@@ -1,0 +1,13 @@
+{
+  "Identifier": "WEP_L85A2",
+  "Name" : "L85A2",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/weapons/w_rif_l85.mdl",
+  "Health" : -1,
+  "MarketPrice" : 10,
+  "Category" : "WEAPONS",
+  "Quantity" : 1,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "cstm_rif_l85a2"
+}

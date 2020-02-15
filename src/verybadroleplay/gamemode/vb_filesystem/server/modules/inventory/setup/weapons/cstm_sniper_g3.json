@@ -1,0 +1,13 @@
+{
+  "Identifier": "WEP_G3",
+  "Name" : "HK G3SG1",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/weapons/w_snip_g3sg1.mdl",
+  "Health" : -1,
+  "MarketPrice" : 10,
+  "Category" : "WEAPONS",
+  "Quantity" : 1,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "cstm_sniper_g3"
+}

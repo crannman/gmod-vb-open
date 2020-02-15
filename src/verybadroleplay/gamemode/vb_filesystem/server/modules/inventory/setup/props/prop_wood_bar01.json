@@ -1,0 +1,12 @@
+{
+  "Identifier": "PROP_WOOD_BAR01",
+  "Name" : "Bar en bois",
+  "Desc" : "Ce bar en bois est parfait pour l'ouverture d'un bar clandestin dans une cave, de plus, facile à nettoyer après qu'un client ait renversé sa bière",
+  "Model" : "models/props/cs_militia/bar01.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "FURNITURE",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true
+}

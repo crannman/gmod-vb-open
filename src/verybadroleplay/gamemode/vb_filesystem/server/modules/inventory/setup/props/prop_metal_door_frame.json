@@ -1,0 +1,12 @@
+{
+    "Identifier": "PROP_METAL_DOOR_FRAME",
+    "Name" : "Cadre de porte en métal",
+    "Desc" : "Placeholder Description",
+    "Model" : "models/props_wasteland/interior_fence002e.mdl",
+    "Health" : 50,
+    "MarketPrice" : 10,
+    "Category" : "FURNITURE",
+    "Quantity" : 0,
+    "IsStackable" : true,
+    "IsBuyableFromFlea" : true
+}

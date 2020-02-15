@@ -1,0 +1,13 @@
+{
+  "Identifier": "WEP_DUAL",
+  "Name" : "M9 Dual Elites",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/weapons/w_pist_elite.mdl",
+  "Health" : -1,
+  "MarketPrice" : 10,
+  "Category" : "WEAPONS",
+  "Quantity" : 1,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "cstm_pistol_dualelites"
+}

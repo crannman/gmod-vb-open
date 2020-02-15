@@ -1,0 +1,14 @@
+{
+  "Identifier": "UPGR_EOTECH557",
+  "Name" : "Viseur ELCAN C79",
+  "Desc" : "",
+  "Model" : "models/bunneh/elcan.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "EQUIPMENTS",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "upgr_eotech557"
+
+}

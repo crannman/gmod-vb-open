@@ -1,0 +1,46 @@
+local create = vgui.Create
+function ShopModel(model, name, description, quantity)
+  local base = baseclass.Get("DModelPanel")
+  local panel = create("DModelPanel")
+  panel:SetSize(80, 80)
+  panel:SetModel(model)
+  function panel:Paint(w, h)
+    draw.RoundedBox(0, 0, 0, self:GetWide(), self:GetTall(), Color(0, 0, 0, 150))
+    draw.RoundedBoxEx(0, 0, 60, 80, 20, Color(0, 0, 0, 100), false, false, true, true)
+    draw.RoundedBoxEx(0, 0, 0, 80, 20, Color(0, 0, 0, 100), false, false, true, true)
+    base.Paint(self, w, h)
+  end
+  GenerateView(panel)
+  panel:SetTooltip(name .. "\r\n" .. "Description: " .. description)
+  local lblQuantity = create("DLabel", panel)
+  lblQuantity:SetText(Translate("inv_quantity_short", quantity))
+  lblQuantity:SetFont("VBFONT_InventoryTiny")
+  lblQuantity:SetSize(75, 10)
+  lblQuantity:SetPos(5, 65)
+  local lblName = create("DLabel", panel)
+  lblName:SetText(name)
+  lblName:SetFont("VBFONT_InventoryTiny")
+  lblName:SetSize(75, 10)
+  lblName:SetPos(5, 5)
+  return panel, lblQuantity
+end
+
+function VBItemModel(model, name, desc)
+  local base = baseclass.Get("DModelPanel")
+  local panel = create("DModelPanel")
+  panel:SetSize(80, 80)
+  panel:SetModel(model)
+  function panel:Paint(w, h)
+    draw.RoundedBox(0, 0, 0, self:GetWide(), self:GetTall(), Color(0, 0, 0, 150))
+    draw.RoundedBoxEx(0, 0, 0, 80, 20, Color(0, 0, 0, 100), false, false, true, true)
+    base.Paint(self, w, h)
+  end
+  GenerateView(panel)
+  panel:SetTooltip(name .. "\r\n" .. "Description: " .. desc)
+  local lblName = create("DLabel", panel)
+  lblName:SetText(name)
+  lblName:SetFont("VBFONT_InventoryTiny")
+  lblName:SetSize(75, 10)
+  lblName:SetPos(5, 5)
+  return panel
+end

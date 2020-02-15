@@ -1,0 +1,12 @@
+{
+  "Identifier": "PROP_NORMAL_METAL_FENCE01",
+  "Name" : "Grillage Simple",
+  "Desc" : "Simple grillage",
+  "Model" : "models/props_c17/fence01a.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "FURNITURE",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true
+}

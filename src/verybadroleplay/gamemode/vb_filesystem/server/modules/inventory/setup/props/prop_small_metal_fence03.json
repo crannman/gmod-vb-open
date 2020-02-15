@@ -1,0 +1,12 @@
+{
+    "Identifier": "PROP_SMALL_METAL_FENCE03",
+    "Name" : "Petit grillage",
+    "Desc" : "Placeholder Description",
+    "Model" : "models/props_wasteland/exterior_fence_nohandle.mdl",
+    "Health" : 50,
+    "MarketPrice" : 10,
+    "Category" : "FURNITURE",
+    "Quantity" : 0,
+    "IsStackable" : true,
+    "IsBuyableFromFlea" : true
+}

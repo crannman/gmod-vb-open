@@ -1,0 +1,12 @@
+{
+    "Identifier": "PROP_BLASTDOOR01",
+    "Name" : "Porte double en métal",
+    "Desc" : "Placeholder Description",
+    "Model" : "models/props_lab/blastdoor001c.mdl",
+    "Health" : 1000,
+    "MarketPrice" : 10,
+    "Category" : "FURNITURE",
+    "Quantity" : 0,
+    "IsStackable" : true,
+    "IsBuyableFromFlea" : true
+}

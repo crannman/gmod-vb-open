@@ -1,0 +1,12 @@
+{
+  "Identifier": "PROP_BIG_METAL_FENCE01",
+  "Name" : "Double grillage",
+  "Desc" : "Double grillage",
+  "Model" : "models/props_wasteland/interior_fence002d.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "FURNITURE",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true
+}

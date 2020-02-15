@@ -1,0 +1,14 @@
+{
+  "Identifier": "MARKET_WEED",
+  "Name" : "Weed",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/katharsmodels/contraband/zak_wiet/zak_wiet.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "MARKET",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "vbrp_weed"
+
+}

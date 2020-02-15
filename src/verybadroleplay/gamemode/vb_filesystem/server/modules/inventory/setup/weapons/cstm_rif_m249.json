@@ -1,0 +1,13 @@
+{
+  "Identifier": "WEP_M249",
+  "Name" : "M249 Para",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/weapons/w_mach_m249para.mdl",
+  "Health" : -1,
+  "MarketPrice" : 10,
+  "Category" : "WEAPONS",
+  "Quantity" : 1,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "cstm_rif_m249"
+}

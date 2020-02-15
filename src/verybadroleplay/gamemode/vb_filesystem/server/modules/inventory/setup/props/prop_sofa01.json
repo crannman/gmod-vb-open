@@ -1,0 +1,12 @@
+{
+  "Identifier": "PROP_SOFA1",
+  "Name" : "Sofa en cuir",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/props/cs_office/sofa.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "FURNITURE",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true
+}

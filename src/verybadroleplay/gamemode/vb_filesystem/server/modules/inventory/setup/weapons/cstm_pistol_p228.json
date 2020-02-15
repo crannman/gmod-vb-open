@@ -1,0 +1,13 @@
+{
+  "Identifier": "WEP_P228",
+  "Name" : "P228",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/weapons/w_pist_p228.mdl",
+  "Health" : -1,
+  "MarketPrice" : 10,
+  "Category" : "WEAPONS",
+  "Quantity" : 1,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "cstm_pistol_p228"
+}

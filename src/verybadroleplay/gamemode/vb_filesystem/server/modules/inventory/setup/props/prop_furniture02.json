@@ -1,0 +1,12 @@
+{
+  "Identifier": "PROP_FURNITURE02",
+  "Name" : "Armoire en bois",
+  "Desc" : "Jolie armoire en bois massif, parfaite pour ranger ses vêtements",
+  "Model" : "models/props/de_boathouse/pantry_01.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "FURNITURE",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true
+}

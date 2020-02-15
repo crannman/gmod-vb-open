@@ -1,0 +1,12 @@
+{
+    "Identifier": "PROP_POLICE_BARRICADE01",
+    "Name" : "Barricade de police",
+    "Desc" : "Placeholder Description",
+    "Model" : "models/props_wasteland/barricade002a.mdl",
+    "Health" : 50,
+    "MarketPrice" : 10,
+    "Category" : "FURNITURE",
+    "Quantity" : 0,
+    "IsStackable" : true,
+    "IsBuyableFromFlea" : true
+}

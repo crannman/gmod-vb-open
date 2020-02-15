@@ -1,0 +1,13 @@
+{
+  "Identifier": "WEP_MR96",
+  "Name" : "MR-96",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/weapons/w_pist_demr96.mdl",
+  "Health" : -1,
+  "MarketPrice" : 10,
+  "Category" : "WEAPONS",
+  "Quantity" : 1,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "cstm_pistol_mr96"
+}

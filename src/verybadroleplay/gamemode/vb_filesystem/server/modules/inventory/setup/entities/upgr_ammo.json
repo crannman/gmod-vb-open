@@ -1,0 +1,14 @@
+{
+  "Identifier": "UPGR_AMMO",
+  "Name" : "NATO Generics",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/Items/BoxMRounds.mdl",
+  "Health" : 50,
+  "MarketPrice" : 10,
+  "Category" : "AMMUNITION",
+  "Quantity" : 0,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "upgr_ammo"
+
+}

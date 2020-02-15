@@ -1,0 +1,13 @@
+{
+  "Identifier": "WEP_M92FS",
+  "Name" : "Berreta M92FS",
+  "Desc" : "Placeholder Description",
+  "Model" : "models/weapons/w_pist_elite_single.mdl",
+  "Health" : -1,
+  "MarketPrice" : 10,
+  "Category" : "WEAPONS",
+  "Quantity" : 1,
+  "IsStackable" : true,
+  "IsBuyableFromFlea" : true,
+  "Entity" : "cstm_pistol_m92fs"
+}
