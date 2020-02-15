@@ -35,7 +35,7 @@ I won't maintain this repo, feel free to fork it.
 ## Map
 The gamemode was initially made for rp_evocity_v33x, so every positions found in the code are for it. Careful if you want to change the map.
 ## Language
-The gamemode default language is french but you can change to english by modifying the init file (shared.lua) of the gamemode, but you'll need to complete the en.lua file in the translation manager.
+The gamemode default language is french but you can change to english by modifying the config file in the translation manager module, but you'll need to complete the en.lua file located in the `lang` subdirectory.
 # Screenshots
 Some screenshots can be found on my steam profile: https://steamcommunity.com/id/azzen/screenshots/
 
