@@ -30,8 +30,8 @@ I won't maintain this repo, feel free to fork it.
    - Serversecure (nothing relies on this, easily removable)
  
  - Populating the database
-   - SQL file is given but you'll need to populate the database (inventory, ranks etc.) to make the gamemode working. This exercise is left to the reader ( ͡° ͜ʖ ͡°) (dig through the code)
-  
+   - SQL file is given but you'll need to populate the database: `lua_run VBRP.PopulateDataBase()` after everything has loaded.
+   - Rank setup: to be superadmin set in the DB the rank field in the players table to **7**
 ## Map
 The gamemode was initially made for rp_evocity_v33x, so every positions found in the code are for it. Careful if you want to change the map.
 ## Language
