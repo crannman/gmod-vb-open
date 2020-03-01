@@ -1,9 +1,8 @@
 # Custom Roleplay Gamemode for Garry's Mod
-Ain't got the time to finish this. 
 
 It is heavily inspired by an old french closed-source gamemode that never got publicly released.
 
-Code is ugly, you'll find a lot of legacy code.
+This project started a long time ago (circa 2016), you'll find legacy code, that means not everything is **secure and optimized**, deadlocks might occur since **nearly all MySQL queries are synchronous**.
 
 Last update I made was on the 26th november 2019. Nothing was tested since.
 
@@ -31,13 +30,15 @@ I won't maintain this repo, feel free to fork it.
  
  - Populating the database
    - **A SQL file with a populated database is provided within the sql folder, you should use this rather than populating yourself the database.**
-   - ~~SQL file is given but you'll need to populate the database: `lua_run VBRP.PopulateDataBase()` after everything has loaded.~~
    - Rank setup: to be superadmin set in the DB the rank field in the players table to **7**
+   
 ## Map
-The gamemode was initially made for rp_evocity_v33x, so every positions found in the code are for it. Careful if you want to change the map.
+The gamemode was initially made for rp_evocity_v33x, so every vectors and angles found in the code are for this map. Careful if you want to change.
+
 ## Language
 The gamemode default language is french but you can change to english by modifying the config file in the translation manager module, but you'll need to complete the en.lua file located in the `lang` subdirectory.
+
 # Screenshots
 Some screenshots can be found on my steam profile: https://steamcommunity.com/id/azzen/screenshots/
 
-Good luck trying to make this gamemode functional again and please keep in mind that this project was not initially intended to be publicly released, so it may not follow the standards regarding gmod lua and addons (especially configuration). You'll need to reverse engineer what I've done to make something **reliable and stable**.
+Good luck trying to make this gamemode functional again and please keep in mind that this project was not initially intended to be publicly released, so it may not follow the standards regarding gmod lua and addons (especially configuration). You'll need to reverse engineer what I've done to make something **reliable, secure and stable**.
