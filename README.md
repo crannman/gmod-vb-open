@@ -8,6 +8,9 @@ Last update I made was on the 26th november 2019. Nothing was tested since.
 
 I won't maintain this repo, feel free to fork it.
 
+Started being updated and newer playermodels added by Crannman.
+Changed French to English
+
 # Requirements
 
  - Server
