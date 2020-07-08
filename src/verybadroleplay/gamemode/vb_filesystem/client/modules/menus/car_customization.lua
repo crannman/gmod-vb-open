@@ -18,7 +18,7 @@ end)
 
 net.Receive("VBNET::Cars::Error::CouldNotOpenCustomizationMenu", function()
 
-  MessageBoxShow(translate("global_error"), "Vous devez venir avec votre véhicule !")
+  MessageBoxShow(translate("global_error"), "You must come with your vehicle!!")
 
 end)
 
@@ -49,7 +49,7 @@ local function createCategoryButton(label, panToDraw, parent)
     draw.RoundedBox(0, 0, self:GetTall() - 3, self:GetWide(), 3, Either(self.CurrentlySelected, COLOR_CUST_ACTIVE_SECTION, COLOR_CUST_INACTIVE_SECTION))
   end
   function button:DoClick()
-    
+
     if currentShowedPanel ~= "" then
       currentShowedPanel:Hide()
       currentShowedPanel = panToDraw
@@ -123,7 +123,7 @@ function DrawCarCustomizationMenu()
     end
   end
   currentShowedPanel = mixer
-  
+
   local licensePanel = create("DPanel", mainPanel)
   licensePanel:Dock(FILL)
   licensePanel:Hide()
@@ -131,7 +131,7 @@ function DrawCarCustomizationMenu()
   local licenseEntry = CreateTextEntry(licensePanel, "VBFONT_CHAR_CREATION_MENU")
   licenseEntry:SetSize(265, 25)
   licenseEntry:SetPos((mainPanel:GetWide() - licenseEntry:GetWide()) / 2, (mainPanel:GetTall() - licenseEntry:GetTall()) / 2)
-  licenseEntry:SetPlaceholderText("Changer votre plaque d'immatriculation ici")
+  licenseEntry:SetPlaceholderText("Change your license plate here")
 
   local lblLicense = create("DLabel", licensePanel)
   lblLicense:SetSize(265, 30)
@@ -146,7 +146,7 @@ function DrawCarCustomizationMenu()
     else
       modificationList["MF::CHANGE_LICENSE_PLATE"] = nil
     end
-    lblLicense:SetText(string.format("Votre plaque: %s", string.Sanitise(self:GetText(), 9)))
+    lblLicense:SetText(string.format("Your plate: %s", string.Sanitise(self:GetText(), 9)))
   end
 
   local basket = CreateListView(mainPanel)
@@ -159,10 +159,10 @@ function DrawCarCustomizationMenu()
   function basket:OnShow()
     self:GetChildren()[2]:OnShow()
   end
-  
+
   local categories = {
     { Name = translate("cd_cust_colors"), Identifier = "", NetString = "MF::CHANGE_COLOR", Panel = mixer },
-    { Name = "Plaques", Identifier = "", NetString = "MF::CHANGE_LICENSE_PLATE", Panel = licensePanel },
+    { Name = "Plates", Identifier = "", NetString = "MF::CHANGE_LICENSE_PLATE", Panel = licensePanel },
     { Name = translate("cd_cust_wing"), Identifier = "Wing", NetString = "MF::CHANGE_SPOILER", Panel = nil },
     { Name = translate("cd_cust_skirt"), Identifier = "Skirt", NetString = "MF::CHANGE_SKIRT", Panel = nil },
     { Name = translate("cd_cust_hood"), Identifier = "Hood", NetString = "MF::CHANGE_HOOD", Panel = nil },
@@ -211,7 +211,7 @@ function DrawCarCustomizationMenu()
   lvBasket:RefreshPaint()
   function lvBasket:OnShow()
     self:Clear()
-    for identifier, v in pairs(modificationList) do 
+    for identifier, v in pairs(modificationList) do
       if identifier == "MF::CHANGE_COLOR" then
         lvBasket:AddLine(translate("cd_cust_recap_colors", v.r, v.g, v.b), FormatMoney(1000))
       end
@@ -265,12 +265,12 @@ function DrawCarCustomizationMenu()
   for k, v in ipairs(categories) do
     if v.ShouldHide then continue end
     local button = createCategoryButton(v.Name, v.Panel, buttonPanel)
-    if k == 1 then 
-      button.CurrentlySelected = true 
+    if k == 1 then
+      button.CurrentlySelected = true
     else
       button:SetPos(0, (i - 1) * 37 )
     end
-    i = i + 1 
+    i = i + 1
   end
 
 end

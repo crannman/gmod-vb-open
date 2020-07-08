@@ -103,7 +103,7 @@ function HUDDrawing()
   local w, h = getTextSize(name .. " - ")
   local w2 = getTextSize(name .. " - " .. job)
   local w3 = getTextSize(money)
-  
+
   texturedQuad(struct)
   -- Name and job
   drawTextOutlined(name .. " - ", "VBFONT_HUDNORMAL", 26, 15 - h / 2, COLOR_RGBA_FULL_WHITE, _, _, 1, COLOR_RGBA_FULL_BLACK)
@@ -147,30 +147,8 @@ function HUDDrawing()
     setDrawColor(0, 0, 0, 255)
     drawOutlinedRect((w2 + w3 + 87 + 131 + 136) - 1, (15 - 10 / 2) - 1, 100 + 1, 10 + 1)
   end
-  local text = "Very Bad Roleplay " .. _VBVERSIONNUMBER .. "-" .. strlwr(_VBVERSIONSTATE).. " © 2016-2019"
-  drawTextOutlined(
-    text,
-    "VBFONT_HUDNORMAL",
-    sW / 2,
-    sH - 50,
-    COLOR_RGBA_FULL_WHITE,
-    TEXT_ALIGN_CENTER,
-    _,
-    1,
-    COLOR_RGBA_FULL_BLACK
-  )
-  drawTextOutlined(
-    "Made by Azzen",
-    "VBFONT_HUDNORMAL",
-    sW / 2,
-    sH - 25,
-    COLOR_RGBA_FULL_WHITE,
-    TEXT_ALIGN_CENTER,
-    _,
-    1,
-    COLOR_RGBA_FULL_BLACK
-  )
   
+
   if pl:InVehicle() then
     local veh = pl:GetVehicle()
     if isvalid(veh) and veh:GetClass() == "prop_vehicle_jeep" then
@@ -220,10 +198,10 @@ function HUDDrawing()
   local perc = clamp(pl:GetDTFoodWeight() / 15, 0, 1)
   setDrawColor(COLOR_BLACK)
   drawOutlinedRect(5, sH - 25, 400, 20)
-  
+
   setDrawColor(LerpColor(398 * perc / 398, COLOR_GREEN, COLOR_RED))
   drawRect(6, sH - 24, 398 * perc, 18)
-  
+
   setDrawColor(Color(0, 0, 0, 100))
   setMaterial(gradient)
   drawTexturedRect(6, sH - 24, 398 * perc, 18)

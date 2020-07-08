@@ -55,10 +55,10 @@ local function GenerateChatBufferOrdered(layout, ply, message)
 end
 
 function ServerSay(message)
-  
+
   local layout = {
     clr(244, 31, 221),
-    "(VeryBadRoleplayServer) ",
+    "(Protocol Servers) ",
     clr(255, 255, 255, 255),
     "Text",
   }
@@ -77,7 +77,7 @@ function VBChatNotify(message, radius, ply)
 
   local layout = {
     [1] = clr(0, 170, 255),
-    [2] = "(VeryBadRoleplay) ",
+    [2] = "(Protocol Servers) ",
     [3] = clr(255, 255, 255),
     [4] = "Text"
   }

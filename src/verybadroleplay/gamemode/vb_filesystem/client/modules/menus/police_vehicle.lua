@@ -5,7 +5,7 @@ hook.Add("OnSpawnMenuOpen", "VBHOOK::ShowPoliceVehicleContextMenu", function()
     if not lastCall then
       lastCall = CurTime() + 2
     elseif lastCall > CurTime() then
-      ClientsideNotify("Attendez un peu avant de réouvrir ce menu !")
+      ClientsideNotify("Wait a bit before reopening this menu!")
       return false
     else
       lastCall = nil
@@ -21,7 +21,7 @@ net.Receive("VBNET::Jobs::Police::ShouldShowPoliceVehicleContextMenu", function(
   if inVehicle then
     ShowPoliceVehicleContextMenu()
   else
-    ClientsideNotify("Vous devez être dans une voiture de police pour ouvrir ce menu !")
+    ClientsideNotify("You must be in a police car to open this menu!")
   end
 
 end)
@@ -38,18 +38,18 @@ function ShowPoliceVehicleContextMenu()
   local buttonRadio = CreateButtonAlt(window)
   buttonRadio:SetPos(5, 30)
   buttonRadio:SetSize(window:GetWide() - 10, 30)
-  buttonRadio:SetText(Either(LocalPlayer():GetWeapon("vbrp_police_radio"):GetDTRadioActivated(), "Désactiver la radio", "Activer la radio"))
+  buttonRadio:SetText(Either(LocalPlayer():GetWeapon("vbrp_police_radio"):GetDTRadioActivated(), "Disable radio", "Activate radio"))
   function buttonRadio:DoClick()
     net.Start("VBNET::SWEP::PoliceRadio::Toggle")
     net.SendToServer()
-    buttonRadio:SetText(Either(buttonRadio:GetText() == "Activer la radio", "Désactiver la radio", "Activer la radio"))
+    buttonRadio:SetText(Either(buttonRadio:GetText() == "Activate radio", "Disable radio", "Activate radio"))
     window:Close()
   end
 
   local buttonCentral = CreateButtonAlt(window)
   buttonCentral:SetSize(window:GetWide() - 10, 30)
   buttonCentral:SetPos(5, 65)
-  buttonCentral:SetText("Afficher la central")
+  buttonCentral:SetText("Show central")
   function buttonCentral:DoClick()
     OpenPoliceCentralMenu(false)
     window:Close()
@@ -58,8 +58,8 @@ function ShowPoliceVehicleContextMenu()
   local buttonRadar = CreateButtonAlt(window)
   buttonRadar:SetSize(window:GetWide() - 10, 30)
   buttonRadar:SetPos(5, 100)
-  buttonRadar:SetText("Activer le radar")
+  buttonRadar:SetText("Activate the radar")
   function buttonRadar:DoClick()
-    buttonRadar:SetText(Either(buttonRadar:GetText() == "Activer le radar", "Désactiver le radar", "Activer le radar"))
+    buttonRadar:SetText(Either(buttonRadar:GetText() == "Activate radar", "Disable radar", "Activate radar"))
   end
 end

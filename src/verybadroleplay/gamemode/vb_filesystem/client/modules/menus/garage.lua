@@ -1,10 +1,10 @@
 local vehTable = {}
 
-net.Receive("VBNET::Cars::SendOwnedVehicles", function() 
+net.Receive("VBNET::Cars::SendOwnedVehicles", function()
 
   vehTable = net.ReadTable()
   if not vehTable[1] then
-    MessageBoxShow(Translate("global_error"), "Vous n'avez pas de véhicule...")
+    MessageBoxShow(Translate("global_error"), "You don't have a vehicle ...")
     return false
   end
   DrawGarageMenu()

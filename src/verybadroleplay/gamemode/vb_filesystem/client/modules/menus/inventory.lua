@@ -7,7 +7,7 @@ hook.Add("PlayerButtonDown", "ShowInventory", function(ply, button)
     if not lastCall then
       lastCall = CurTime() + 2
     elseif lastCall > CurTime() then
-      ClientsideNotify("Attendez un peu avant de réouvrir ce menu !")
+      ClientsideNotify("Wait a bit before reopening this menu!")
       return false
     else
       lastCall = nil
@@ -124,7 +124,7 @@ function ShowInventory()
   local furnitures = VBVGUI:Create("ScrollableGridLayout", itemCategories)
 
   local categories = {
-    ["FURNITURE"]  = { Name = Translate("inv_furniture"),  Panel = furnitures, 
+    ["FURNITURE"]  = { Name = Translate("inv_furniture"),  Panel = furnitures,
       F = function(item, panel, menu)
         menu:AddOption("Poser", function()
           if item.Quantity - 1 <= 0 then panel:Remove() else panel:SetQuantity(item.Quantity - 1) end
@@ -156,7 +156,7 @@ function ShowInventory()
       end
     },
     ["EQUIPMENTS"] = { Name = Translate("inv_equipments"), Panel = equipments,
-      F = function(item, panel, menu) 
+      F = function(item, panel, menu)
         menu:AddOption("Poser", function()
           if item.Quantity - 1 <= 0 then panel:Remove() else item.Quantity = item.Quantity - 1 panel:SetQuantity(item.Quantity) end
           sendInventoryRequest(item.Identifier, "Entities")
@@ -164,7 +164,7 @@ function ShowInventory()
       end
     },
     ["MARKET"] = { Name = Translate("inv_market"), Panel = market,
-      F = function(item, panel, menu) 
+      F = function(item, panel, menu)
         menu:AddOption("Poser", function()
           if item.Quantity - 1 <= 0 then panel:Remove() else item.Quantity = item.Quantity - 1 panel:SetQuantity(item.Quantity)  end
           sendInventoryRequest(item.Identifier, "Entities")
@@ -172,7 +172,7 @@ function ShowInventory()
       end
     },
     ["MISC"] = { Name = Translate("inv_misc"), Panel = misc,
-      F = function(item, panel, menu) 
+      F = function(item, panel, menu)
         menu:AddOption("Poser", function()
           if item.Quantity - 1 <= 0 then panel:Remove() else item.Quantity = item.Quantity - 1 panel:SetQuantity(item.Quantity)  end
           sendInventoryRequest(item.Identifier, "Entities")
