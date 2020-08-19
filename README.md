@@ -8,7 +8,7 @@ Last update I made was on the 26th november 2019. Nothing was tested since.
 
 I won't maintain this repo, feel free to fork it.
 
-Started being updated and newer playermodels added by Crannman.
+Project taken over by Crannman.
 Changed French to English
 
 # Requirements
@@ -16,7 +16,8 @@ Changed French to English
  - Server
    - Whatever that can run a Gmod Server
    - MySQL Database
-   - Linux (never tested on Windows)
+   - Linux (Currently not working)
+   - Windows (Tested and working 19/08/2020)
  
  - Addons
    - **"My" customized playermodels** (won't work if you don't have these)
@@ -27,7 +28,7 @@ Changed French to English
    - My customized version of CW 1.0 (available in the repo)
    - [Extra Customizable Weaponry 1.0 - Complete pack](https://mega.nz/#!hd43ER4S!t74w7ZYT44BoY6b8ehoQ_RSCMym87-Bklb7hPobwlJw)
  
- - C++ Modules
+   - C++ Modules
    - Mysqloo
    - Serversecure (nothing relies on this, easily removable)
  
@@ -40,8 +41,5 @@ The gamemode was initially made for rp_evocity_v33x, so every vectors and angles
 
 ## Language
 The gamemode default language is french but you can change to english by modifying the config file in the translation manager module, but you'll need to complete the en.lua file located in the `lang` subdirectory.
-
-# Screenshots
-Some screenshots can be found on my steam profile: https://steamcommunity.com/id/azzen/screenshots/
 
 Good luck trying to make this gamemode functional again and please keep in mind that this project was not initially intended to be publicly released, so it may not follow the standards regarding gmod lua and addons (especially configuration). You'll need to reverse engineer what I've done to make something **reliable, secure and stable**.
